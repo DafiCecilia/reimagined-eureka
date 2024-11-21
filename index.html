@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Relatos do Oráculo</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="cabeçalho">
+    <div class="container">
+      <input type="checkbox" id="menu" class="container__botao">
+      <label for="menu" class="container__rotulo">
+        <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+      </label>
+      <ul class="lista-menu">
+        <li class="lista-menu__titulo">MITOLOGIA</li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Histórias</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Contos</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Mitos</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Narrativas Épicas</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Conexão entre mundos</a>
+        </li>
+      </ul>
+      <img src="imagens/pilar.jpeg" width="30px" alt="Logo da Alurabooks" class="container__imagem">
+      <h1 class="container__titulo">GREEK</h1>
+
+      <ul class="opções">
+        <input type="checkbox" id="opções-menu" class="opções__botão" />
+        <label for="opções-menu" class="opções__rotulo">
+          <li class="opções__item">MITOLOGIA</li>
+        </label>
+
+        <ul class="lista-menu">
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Histórias</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Contos</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Mitos</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Narrativas Épicas</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Conexão entre Mundos</a>
+          </li>
+        </ul>
+        <li class="opções__item"><a href="#" class="opções__link">BESTIÁRIO</a></li>
+        <li class="opções__item"><a href="#" class="opções__link">LINHA DO TEMPO</a></li>
+        <li class="opções__item"><a href="#" class="opções__link">ARTEFATOS</a></li>
+        <li class="opções__item"><a href="#" class="opções__link">TAREFAS HERÓICAS</a></li>
+      </ul>
+
+    </div>
+    <div class="container">
+      <a href="#"><img src="imgs/Favoritos.svg" alt="Meus favoritos"
+          class="container__imagem container__imagem-transparente"></a>
+      <a href="#" class="container__link">
+        <img src="imgs/Compras.svg" alt="Carrinhos de compras" class="container__imagem">
+        <p class="container__texto">Minha sacola</p>
+      </a>
+      <a href="#" class="container__link">
+        <img src="imgs/Usuario.svg" alt="Meu perfil" class="container__imagem">
+        <p class="container__texto">Meu perfil</p>
+      </a>
+    </div>
+  </header>
+
+  <section class="banner">
+    <h2 class="banner__titulo">Pesquise por categoria</h2>
+    <p>
+      -
+    </p>
+    <input type="search" class="banner__pesquisa" placeholder="O que você quer do oráculo?">
+  </section>
+
+  <section class="carrossel">
+    <h2 class="carrossel__titulo">Nossas Histórias</h2>
+
+    <div class="carrossel__container">
+      
+      <div class="swiper">
+
+        <p>-</p>
+        
+        <div class="swiper-wrapper">
+         
+          <div class="swiper-slide"><img src="imagens/greek gods.jpeg"
+              alt="Livro sobre apache kafka e spring boot da alura books"></div>
+          <div class="swiper-slide"><img src="imagens/percy.jpeg"
+              alt="Livro sobre liderança em design design da alura books"></div>
+          <div class="swiper-slide"><img src="imagens/myth of the day.jpeg" alt="Livro sobre javascript assertivo da alura books">
+          </div>
+          <div class="swiper-slide">
+            <img src="imgs/Guia Front-end.svg" alt="Livro Guia front end" />
+          </div>
+          <div class="swiper-slide">
+            <img src="imgs/Portugol.svg" alt="Livro sobre portugol" />
+          </div>
+          <div class="swiper-slide">
+            <img src="imgs/Acessibilidade.svg" alt="Livro sobre acessibilidade" />
+          </div>
+        </div>
+
+        
+
+      </div>
+
+      <div class="card">
+        <div class="card__descrição">
+          <div class="descrição">
+            <h3 class="descrição__titulo">Talvez você também se interesse por...</h3>
+            <h2 class="descrição__titulo-livro">Gregos e Romanos</h2>
+            <p class="descrição__texto">
+              Você sabia que a mitologia grega e romana têm mais em comum do que você imagina? Embora ambas as culturas tenham suas particularidades, os mitos e deuses de uma influenciaram fortemente os da outra. Em nossa matéria, vamos explorar como figuras como Zeus se transformaram em Júpiter, e como as histórias de heróis e criaturas míticas foram adaptadas entre os dois impérios. Se você sempre se perguntou por que Marte é o deus romano da guerra, mas seu equivalente grego é Ares, ou o que as semelhanças e diferenças entre eles revelam sobre cada cultura, essa leitura é para você!
+
+          </div>
+          <img src="imagens/gregos e romanos.jpeg" width="158px"  class="descrição__imagem" />
+        </div>
+        <div class="card__botões">
+          <ul class="botões">
+            <li class="botões__item">
+              <img src="imgs/Favoritos.svg" alt="Favoritar livro" />
+            </li>
+            <li class="botões__item">
+              <img src="imgs/Compras.svg" alt="Adicionar no carrinho de compras" />
+            </li>
+          </ul>
+          <a href="#" class="botões__ancora">Saiba mais</a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class=”carrossel”>
+    <h2 class="carrossel__titulo">Não se perca!!! (nossos mapas)
+      <p>Monte Olimpo - Acampamento Meio-Sangue - Submundo</p>
+    </h2>
+
+    <div class="carrossel__container">
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <!-- If we need pagination -->
+        <p> -</p>
+
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="imagens/WhatsApp Image 2024-11-12 at 14.43.53.jpeg"
+              alt="Livro sobre apache kafka e spring boot da alura books"></div>
+          <div class="swiper-slide"><img src="imagens/WhatsApp Image 2024-11-12 at 14.42.33.jpeg" alt="Livro sobre liderança em design da alura books">
+          </div>
+          <div class="swiper-slide"><img src="imagens/WhatsApp Image 2024-11-12 at 14.42.57.jpeg" alt="Livro sobre javascript assertivo da alurabooks">
+          </div>
+          <div class="swiper-slide"><img src="imgs/Guia Front-end.svg" alt="Livro Guia front end"></div>
+          <div class="swiper-slide"><img src="imgs/Portugol.svg" alt="Livro sobre portugol"></div>
+          <div class="swiper-slide"><img src="imgs/Acessibilidade.svg" alt="livro sobre acessibilidade"></div>
+        </div>
+
+        
+      </div>
+
+      <div class="card">
+        <!-- 1º linha -->
+        <div class="card__descrição">
+          <!-- 1º coluna -->
+          <div class="descrição">
+            <img src="imgs/Estrelinhas.svg" alt="Avaliação 5 estrelas">
+            <h3 class="descrição__titulo">Nosso fanfiqueiro</h3>
+            <h2 class="descrição__titulo-livro">Rick Riordan</h2>
+            <p class="descrição__texto">Rick Riordan é o autor que decidiu provar que mitologia não é só coisa do passado — ela também pode ser divertida e cheia de aventura. Conhecido principalmente pela série Percy Jackson e os Olimpianos, Riordan dá um toque moderno aos deuses e heróis da Grécia, Roma, Egito e muito mais. Ele é o tipo de autor que faz até Zeus e Poseidon parecerem gente como a gente, só que com poderes um pouco mais… impressionantes. Entre uma luta contra monstros e um feitiço mal lançado, Riordan combina mitologia com humor e cria histórias que fazem os leitores acreditarem que, sim, talvez um semideus também tenha problemas com matemática.
+            </p>
+          </div>
+          <!-- 2º coluna -->
+          <img src="imagens/532.jpg" width="157px" class="descrição__imagem">
+        </div>
+
+        <!-- 2º linha -->
+        <div class="card__botões">
+          <!-- 1º coluna -->
+          <ul class="botões">
+            <li class="botões__item"><img src="imgs/Favoritos.svg" alt="Favoritar livro"></li>
+            <li class="botões__item"><img src="imgs/Compras.svg" alt="Adicionar no carrinho de compras"></li>
+          </ul>
+          <!-- 2º coluna -->
+          <a href="#" class="botões__ancora">Saiba mais</a>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+  <section class="tópicos">
+    <h2 class="tópicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+    <ul class="tópicos__lista">
+      <li class="tópicos__item"><a href="#" class="tópicos__link">Hermes comedor de casadas</a></li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Hera e Zeus: O Casamento mais Problemático do Olimpo</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Cérbero, 3 cabeças e nenhuma com juizo</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Atena, deusa do EU TE AVISEI</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Cronos, melhor avô do mundo &hearts; </a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Afrodite, Ares e o corno manso</a>
+      </li>
+    </ul>
+  </section>
+
+  <section class="contato">
+    <div class="contato__descrição">
+      <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+      <p class="contato__texto">
+        Atualizações do oráculo Delfos e novas reinvidicações dos semideuses.
+      </p>
+    </div>
+    <input type="email" placeholder=" Desculpe, só trabalhamos com cartas " class="contato__email" />
+  </section>
+
+  <hr />
+
+  <footer class="rodapé">
+    <h2 class="rodapé__titulo">Grupo Hermes de Comunicação</h2>
+    <ul class="lista-rodapé">
+      <li class="lista-rodapé__titulo">Atendentes</li>
+      <li class="lista-rodapé__item">
+        <a href="#" class="lista-rodapé__link">George</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <a href="#" class="lista-rodapé__link">Martha</a>
+      </li>
+    </ul>
+
+    <ul class="lista-rodapé">
+      <li class="lista-rodapé__titulo">Habilidades</li>
+      <li class="lista-rodapé__item">
+        <a href="#" class="lista-rodapé__link">Velocidade Aprimorada</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <a href="#" class="lista-rodapé__link">Audioquinesia</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <a href="#" class="lista-rodapé__link">Roubo</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <a href="#" class="lista-rodapé__link">Clauditequinesia</a>
+      </li>
+    </ul>
+
+    <ul class="lista-rodapé">
+      <li class="lista-rodapé__titulo">Filhos</li>
+      <li class="lista-rodapé__item">
+        <a href="#" class="lista-rodapé__link">Luke Castellan</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <a href="#" class="lista-rodapé__link">Travis e Connor Stoll</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <a href="#" class="lista-rodapé__link">Julia Feingold</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <a href="#" class="lista-rodapé__link">Chris Rodriguez</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <a href="#" class="lista-rodapé__link">Cecil Markowitz</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <a href="#" class="lista-rodapé__link">Alice Miyazawa</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <a href="#" class="lista-rodapé__link">Percy Jackson (temporariamente)</a>
+      </li>
+    </ul>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper(".swiper", {
+      spaceBetween: 10,
+      slidesPerView: 3,
+      pagination: {
+        el: ".swiper-pagination",
+        type: "bullets",
+      },
+    });
+  </script>
+</body>
+
+</html>
